@@ -49,7 +49,7 @@ document.getElementById('startBtn').addEventListener('click', async () => {
 
         try {
             const key = await generateKey(clientToken);
-            updateProgress( / keyCount); // завершить прогресс
+            updateProgress(30 / keyCount); // завершить прогресс
             return key;
         } catch (error) {
             alert(`Key generation failed: ${error.message}`);
