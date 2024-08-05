@@ -66,7 +66,7 @@ document.getElementById('startBtn').addEventListener('click', async () => {
 });
 
 document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-    window.location.href = 'https://dzen.ru/id/6692df520f4cdd6ded47c3ee'; // Замените на URL вашего канала
+    window.location.href = 'https://t.me/KeyDropHamster'; // Замените на URL вашего канала
 });
 
 function generateClientId() {
